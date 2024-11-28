@@ -1,0 +1,9 @@
+{
+    "name" : "logSchema",
+    "type": "record",
+    "fields": [
+        {"name": "timestamp" , "type" : "string"},
+        {"name": "log_level" , "type" : "string"},
+        {"name": "log_message" , "type" : "string"}
+    ]
+}
